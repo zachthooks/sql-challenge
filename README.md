@@ -23,7 +23,7 @@ This project includes:
 
 The PostgreSQL database was created using a SQL script for table creation. This script includes definitions for primary keys, foreign keys, and other constraints necessary for maintaining data integrity. You can find the table creation script in:
 
-- [Employee_DB_Table_creation.sql](./EmployeeSQL/Employee_DB_Table_creation.sql)
+- [Employee_DB_Table_creation.sql](./EmployeeSQL/Employee_DB_Table_Creation.sql)
 
 After creating each table, we used PostgreSQL's `COPY` command in the script to import data from the CSV files.
 
@@ -37,7 +37,7 @@ To visualize the structure of the database, we generated an ERD (Entity-Relation
 
 The QuickDBD script used to create this ERD is also available:
 
-- [Employee_ERD_script.txt](./EmployeeSQL/Employee_ERD_script.txt)
+- [Employee_ERD_script.txt](./EmployeeSQL/Employee_ERD_Script.txt)
 
 ---
 
